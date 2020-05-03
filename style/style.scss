@@ -11,7 +11,7 @@
     &__h1 {
         font-size: 5em;
         text-align: left;
-        width: 70%;
+        width: 85%;
         height: auto;
     
         margin: auto;
@@ -26,6 +26,7 @@
             animation: topToBottom 12.5s linear infinite 0s;
             -ms-animation: topToBottom 12.5s linear infinite 0s;
             -webkit-animation: topToBottom 12.5s linear infinite 0s;
+            height: 100px;
             opacity: 0;
             overflow: hidden;
             position: absolute;
@@ -76,6 +77,58 @@
     }
 }
 
+#build-img {
+    opacity:0;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+
+    -ms-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+#experiences-img {
+    opacity:0;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+
+    -ms-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+#boom-img {
+    opacity:0;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+
+    -ms-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+#growth-img {
+    opacity:0;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+
+    -ms-animation-delay: 7s;
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
 
 
 /*topToBottom Animation*/
@@ -106,3 +159,12 @@
 	80% { opacity: 0; }
 	100% { opacity: 0; }
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }

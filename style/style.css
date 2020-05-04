@@ -16,6 +16,7 @@
   height: auto;
   margin: auto;
   padding: 20% 0% 0 0%;
+  position: relative;
 }
 
 .slide-1__wheel {
@@ -51,6 +52,12 @@
   -webkit-animation-delay: 7.5s;
 }
 
+.slide-1__sub {
+  font-size: 0.4em;
+  font-family: Lucida, sans-serif;
+  line-height: 2em;
+}
+
 .navMenu {
   width: 100%;
   height: 40%;
@@ -77,48 +84,92 @@
   cursor: pointer;
 }
 
-.navMenu__project-content {
+.navMenu__projectImg {
   opacity: 0;
-  animation: fadeIn ease 4s forwards;
-  -webkit-animation: fadeIn ease 4s forwards;
-  -moz-animation: fadeIn ease 4s forwards;
-  -o-animation: fadeIn ease 4s forwards;
-  -ms-animation: fadeIn ease 4s forwards;
-  -webkit-animation-delay: .4s;
-  animation-delay: .4s;
+  animation: fadeIn ease 3s forwards;
+  -webkit-animation: fadeIn ease 3s forwards;
+  -moz-animation: fadeIn ease 3s forwards;
+  -o-animation: fadeIn ease 3s forwards;
+  -ms-animation: fadeIn ease 3s forwards;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
 }
 
-.navMenu__blog-content {
+.navMenu__projectText {
   opacity: 0;
-  animation: fadeIn ease 4s forwards;
-  -webkit-animation: fadeIn ease 4s forwards;
-  -moz-animation: fadeIn ease 4s forwards;
-  -o-animation: fadeIn ease 4s forwards;
-  -ms-animation: fadeIn ease 4s forwards;
+  animation: fadeIn ease 2s forwards;
+  -webkit-animation: fadeIn ease 2s forwards;
+  -moz-animation: fadeIn ease 2s forwards;
+  -o-animation: fadeIn ease 2s forwards;
+  -ms-animation: fadeIn ease 2s forwards;
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.navMenu__blogImg {
+  opacity: 0;
+  animation: fadeIn ease 3s forwards;
+  -webkit-animation: fadeIn ease 3s forwards;
+  -moz-animation: fadeIn ease 3s forwards;
+  -o-animation: fadeIn ease 3s forwards;
+  -ms-animation: fadeIn ease 3s forwards;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
 
-.navMenu__about-content {
+.navMenu__blogText {
   opacity: 0;
-  animation: fadeIn ease 4s forwards;
-  -webkit-animation: fadeIn ease 4s forwards;
-  -moz-animation: fadeIn ease 4s forwards;
-  -o-animation: fadeIn ease 4s forwards;
-  -ms-animation: fadeIn ease 4s forwards;
+  animation: fadeIn ease 2s forwards;
+  -webkit-animation: fadeIn ease 2s forwards;
+  -moz-animation: fadeIn ease 2s forwards;
+  -o-animation: fadeIn ease 2s forwards;
+  -ms-animation: fadeIn ease 2s forwards;
+  -webkit-animation-delay: 10.25s;
+  animation-delay: 10.25s;
+}
+
+.navMenu__aboutImg {
+  opacity: 0;
+  animation: fadeIn ease 3s forwards;
+  -webkit-animation: fadeIn ease 3s forwards;
+  -moz-animation: fadeIn ease 3s forwards;
+  -o-animation: fadeIn ease 3s forwards;
+  -ms-animation: fadeIn ease 3s forwards;
   -webkit-animation-delay: 5.5s;
   animation-delay: 5.5s;
 }
 
-.navMenu__contact-content {
+.navMenu__aboutText {
   opacity: 0;
-  animation: fadeIn ease 4s forwards;
-  -webkit-animation: fadeIn ease 4s forwards;
-  -moz-animation: fadeIn ease 4s forwards;
-  -o-animation: fadeIn ease 4s forwards;
-  -ms-animation: fadeIn ease 4s forwards;
+  animation: fadeIn ease 2s forwards;
+  -webkit-animation: fadeIn ease 2s forwards;
+  -moz-animation: fadeIn ease 2s forwards;
+  -o-animation: fadeIn ease 2s forwards;
+  -ms-animation: fadeIn ease 2s forwards;
+  -webkit-animation-delay: 10.5s;
+  animation-delay: 10.5s;
+}
+
+.navMenu__contactImg {
+  opacity: 0;
+  animation: fadeIn ease 3s forwards;
+  -webkit-animation: fadeIn ease 3s forwards;
+  -moz-animation: fadeIn ease 3s forwards;
+  -o-animation: fadeIn ease 3s forwards;
+  -ms-animation: fadeIn ease 3s forwards;
   -webkit-animation-delay: 8s;
   animation-delay: 8s;
+}
+
+.navMenu__contactText {
+  opacity: 0;
+  animation: fadeIn ease 2s forwards;
+  -webkit-animation: fadeIn ease 2s forwards;
+  -moz-animation: fadeIn ease 2s forwards;
+  -o-animation: fadeIn ease 2s forwards;
+  -ms-animation: fadeIn ease 2s forwards;
+  -webkit-animation-delay: 10.75s;
+  animation-delay: 10.75s;
 }
 
 .navMenu img {

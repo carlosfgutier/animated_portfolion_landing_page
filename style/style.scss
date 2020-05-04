@@ -15,6 +15,8 @@
         height: auto;   
         margin: auto;
         padding: 20% 0% 0 0%;
+        position: relative;
+        
     }
 
     &__wheel{
@@ -47,6 +49,12 @@
             }
         }
     }
+
+    &__sub {
+        font-size: 0.4em;
+        font-family: Lucida, sans-serif;
+        line-height: 2em;
+    }
 }
 
 .navMenu {
@@ -70,56 +78,108 @@
         }
     }
 
-    &__project-content {
+    &__projectImg {
         opacity:0;
-        animation: fadeIn ease 4s forwards;
-        -webkit-animation: fadeIn ease 4s forwards;
-        -moz-animation: fadeIn ease 4s forwards;
-        -o-animation: fadeIn ease 4s forwards;
-        -ms-animation: fadeIn ease 4s forwards;
+        animation: fadeIn ease 3s forwards;
+        -webkit-animation: fadeIn ease 3s forwards;
+        -moz-animation: fadeIn ease 3s forwards;
+        -o-animation: fadeIn ease 3s forwards;
+        -ms-animation: fadeIn ease 3s forwards;
     
-        -ms-animation-delay: .4s;
-        -webkit-animation-delay: .4s;
-        animation-delay: .4s;
+        -ms-animation-delay: .5s;
+        -webkit-animation-delay: .5s;
+        animation-delay: .5s;
     }
 
-    &__blog-content {
+    &__projectText {
         opacity:0;
-        animation: fadeIn ease 4s forwards;
-        -webkit-animation: fadeIn ease 4s forwards;
-        -moz-animation: fadeIn ease 4s forwards;
-        -o-animation: fadeIn ease 4s forwards;
-        -ms-animation: fadeIn ease 4s forwards;
+        animation: fadeIn ease 2s forwards;
+        -webkit-animation: fadeIn ease 2s forwards;
+        -moz-animation: fadeIn ease 2s forwards;
+        -o-animation: fadeIn ease 2s forwards;
+        -ms-animation: fadeIn ease 2s forwards;
+    
+        -ms-animation-delay: 10s;
+        -webkit-animation-delay: 10s;
+        animation-delay: 10s;
+    }
+
+    &__blogImg {
+        opacity:0;
+        animation: fadeIn ease 3s forwards;
+        -webkit-animation: fadeIn ease 3s forwards;
+        -moz-animation: fadeIn ease 3s forwards;
+        -o-animation: fadeIn ease 3s forwards;
+        -ms-animation: fadeIn ease 3s forwards;
     
         -ms-animation-delay: 3s;
         -webkit-animation-delay: 3s;
         animation-delay: 3s;
     }
-    
-    &__about-content {
+
+    &__blogText {
         opacity:0;
-        animation: fadeIn ease 4s forwards;
-        -webkit-animation: fadeIn ease 4s forwards;
-        -moz-animation: fadeIn ease 4s forwards;
-        -o-animation: fadeIn ease 4s forwards;
-        -ms-animation: fadeIn ease 4s forwards;
+        animation: fadeIn ease 2s forwards;
+        -webkit-animation: fadeIn ease 2s forwards;
+        -moz-animation: fadeIn ease 2s forwards;
+        -o-animation: fadeIn ease 2s forwards;
+        -ms-animation: fadeIn ease 2s forwards;
+    
+        -ms-animation-delay: 10.25s;
+        -webkit-animation-delay: 10.25s;
+        animation-delay: 10.25s;
+    }
+    
+    &__aboutImg {
+        opacity:0;
+        animation: fadeIn ease 3s forwards;
+        -webkit-animation: fadeIn ease 3s forwards;
+        -moz-animation: fadeIn ease 3s forwards;
+        -o-animation: fadeIn ease 3s forwards;
+        -ms-animation: fadeIn ease 3s forwards;
     
         -ms-animation-delay: 5.5s;
         -webkit-animation-delay: 5.5s;
         animation-delay: 5.5s;
     }
-    
-    &__contact-content {
+
+    &__aboutText {
         opacity:0;
-        animation: fadeIn ease 4s forwards;
-        -webkit-animation: fadeIn ease 4s forwards;
-        -moz-animation: fadeIn ease 4s forwards;
-        -o-animation: fadeIn ease 4s forwards;
-        -ms-animation: fadeIn ease 4s forwards;
+        animation: fadeIn ease 2s forwards;
+        -webkit-animation: fadeIn ease 2s forwards;
+        -moz-animation: fadeIn ease 2s forwards;
+        -o-animation: fadeIn ease 2s forwards;
+        -ms-animation: fadeIn ease 2s forwards;
+    
+        -ms-animation-delay: 10.5s;
+        -webkit-animation-delay: 10.5s;
+        animation-delay: 10.5s;
+    }
+    
+    &__contactImg {
+        opacity:0;
+        animation: fadeIn ease 3s forwards;
+        -webkit-animation: fadeIn ease 3s forwards;
+        -moz-animation: fadeIn ease 3s forwards;
+        -o-animation: fadeIn ease 3s forwards;
+        -ms-animation: fadeIn ease 3s forwards;
     
         -ms-animation-delay: 8s;
         -webkit-animation-delay: 8s;
         animation-delay: 8s;
+    }
+
+    &__contactText {
+        opacity:0;
+        animation: fadeIn ease 2s forwards;
+        -webkit-animation: fadeIn ease 2s forwards;
+        -moz-animation: fadeIn ease 2s forwards;
+        -o-animation: fadeIn ease 2s forwards;
+        -ms-animation: fadeIn ease 2s forwards;
+    
+        -ms-animation-delay: 10.75s;
+        -webkit-animation-delay: 10.75s;
+        animation-delay: 10.75s;
     }
 
     & img {

@@ -17,6 +17,13 @@
   margin: auto;
   padding: 20% 0% 0 0%;
   position: relative;
+  animation: fadeInAndOut ease 3s forwards;
+  -webkit-animation: fadeInAndOut ease 3s forwards;
+  -moz-animation: fadeInAndOut ease 3s forwards;
+  -o-animation: fadeInAndOut ease 3s forwards;
+  -ms-animation: fadeInAndOut ease 3s forwards;
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
 }
 
 .slide-1__wheel {
@@ -46,16 +53,31 @@
   -webkit-animation-delay: 5s;
 }
 
-.slide-1__wheel span:nth-child(4) {
-  animation-delay: 7.5s;
-  -ms-animation-delay: 7.5s;
-  -webkit-animation-delay: 7.5s;
-}
-
 .slide-1__sub {
   font-size: 0.4em;
   font-family: Lucida, sans-serif;
   line-height: 2em;
+}
+
+.slide-1__sub span {
+  opacity: 0;
+  animation: fadeIn ease 3s forwards;
+  -webkit-animation: fadeIn ease 3s forwards;
+  -moz-animation: fadeIn ease 3s forwards;
+  -o-animation: fadeIn ease 3s forwards;
+  -ms-animation: fadeIn ease 3s forwards;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.slide-1__sub span:nth-child(2) {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.slide-1__sub span:nth-child(3) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .navMenu {
@@ -102,8 +124,8 @@
   -moz-animation: fadeIn ease 2s forwards;
   -o-animation: fadeIn ease 2s forwards;
   -ms-animation: fadeIn ease 2s forwards;
-  -webkit-animation-delay: 10s;
-  animation-delay: 10s;
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
 }
 
 .navMenu__blogImg {
@@ -124,8 +146,8 @@
   -moz-animation: fadeIn ease 2s forwards;
   -o-animation: fadeIn ease 2s forwards;
   -ms-animation: fadeIn ease 2s forwards;
-  -webkit-animation-delay: 10.25s;
-  animation-delay: 10.25s;
+  -webkit-animation-delay: 14.25s;
+  animation-delay: 14.25s;
 }
 
 .navMenu__aboutImg {
@@ -146,30 +168,8 @@
   -moz-animation: fadeIn ease 2s forwards;
   -o-animation: fadeIn ease 2s forwards;
   -ms-animation: fadeIn ease 2s forwards;
-  -webkit-animation-delay: 10.5s;
-  animation-delay: 10.5s;
-}
-
-.navMenu__contactImg {
-  opacity: 0;
-  animation: fadeIn ease 3s forwards;
-  -webkit-animation: fadeIn ease 3s forwards;
-  -moz-animation: fadeIn ease 3s forwards;
-  -o-animation: fadeIn ease 3s forwards;
-  -ms-animation: fadeIn ease 3s forwards;
-  -webkit-animation-delay: 8s;
-  animation-delay: 8s;
-}
-
-.navMenu__contactText {
-  opacity: 0;
-  animation: fadeIn ease 2s forwards;
-  -webkit-animation: fadeIn ease 2s forwards;
-  -moz-animation: fadeIn ease 2s forwards;
-  -o-animation: fadeIn ease 2s forwards;
-  -ms-animation: fadeIn ease 2s forwards;
-  -webkit-animation-delay: 10.75s;
-  animation-delay: 10.75s;
+  -webkit-animation-delay: 14.5s;
+  animation-delay: 14.5s;
 }
 
 .navMenu img {
@@ -234,6 +234,30 @@
 
 @keyframes fadeIn {
   0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInAndOut {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAndOut {
+  0% {
+    opacity: 1;
+  }
+  40% {
     opacity: 0;
   }
   100% {

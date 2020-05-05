@@ -16,6 +16,16 @@
         margin: auto;
         padding: 20% 0% 0 0%;
         position: relative;
+
+        animation: fadeInAndOut ease 3s forwards;
+        -webkit-animation: fadeInAndOut ease 3s forwards;
+        -moz-animation: fadeInAndOut ease 3s forwards;
+        -o-animation: fadeInAndOut ease 3s forwards;
+        -ms-animation: fadeInAndOut ease 3s forwards;
+    
+        -ms-animation-delay: 7s;
+        -webkit-animation-delay: 7s;
+        animation-delay: 7s;
         
     }
 
@@ -42,11 +52,6 @@
                 -ms-animation-delay: 5s;
                 -webkit-animation-delay: 5s;
             }
-            &:nth-child(4){
-                animation-delay: 7.5s;
-                -ms-animation-delay: 7.5s;
-                -webkit-animation-delay: 7.5s;
-            }
         }
     }
 
@@ -54,6 +59,31 @@
         font-size: 0.4em;
         font-family: Lucida, sans-serif;
         line-height: 2em;
+        
+
+        & span{
+            opacity:0;
+            animation: fadeIn ease 3s forwards;
+            -webkit-animation: fadeIn ease 3s forwards;
+            -moz-animation: fadeIn ease 3s forwards;
+            -o-animation: fadeIn ease 3s forwards;
+            -ms-animation: fadeIn ease 3s forwards;
+
+            -ms-animation-delay: 2s;
+            -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    
+            &:nth-child(2){
+                -ms-animation-delay: 3s;
+                -webkit-animation-delay: 3s;
+                animation-delay: 3s;
+            }
+            &:nth-child(3){
+                -ms-animation-delay: 4s;
+                -webkit-animation-delay: 4s;
+                animation-delay: 4s;
+            }
+        }
     }
 }
 
@@ -99,9 +129,9 @@
         -o-animation: fadeIn ease 2s forwards;
         -ms-animation: fadeIn ease 2s forwards;
     
-        -ms-animation-delay: 10s;
-        -webkit-animation-delay: 10s;
-        animation-delay: 10s;
+        -ms-animation-delay: 14s;
+        -webkit-animation-delay: 14s;
+        animation-delay: 14s;
     }
 
     &__blogImg {
@@ -125,9 +155,9 @@
         -o-animation: fadeIn ease 2s forwards;
         -ms-animation: fadeIn ease 2s forwards;
     
-        -ms-animation-delay: 10.25s;
-        -webkit-animation-delay: 10.25s;
-        animation-delay: 10.25s;
+        -ms-animation-delay: 14.25s;
+        -webkit-animation-delay: 14.25s;
+        animation-delay: 14.25s;
     }
     
     &__aboutImg {
@@ -151,35 +181,9 @@
         -o-animation: fadeIn ease 2s forwards;
         -ms-animation: fadeIn ease 2s forwards;
     
-        -ms-animation-delay: 10.5s;
-        -webkit-animation-delay: 10.5s;
-        animation-delay: 10.5s;
-    }
-    
-    &__contactImg {
-        opacity:0;
-        animation: fadeIn ease 3s forwards;
-        -webkit-animation: fadeIn ease 3s forwards;
-        -moz-animation: fadeIn ease 3s forwards;
-        -o-animation: fadeIn ease 3s forwards;
-        -ms-animation: fadeIn ease 3s forwards;
-    
-        -ms-animation-delay: 8s;
-        -webkit-animation-delay: 8s;
-        animation-delay: 8s;
-    }
-
-    &__contactText {
-        opacity:0;
-        animation: fadeIn ease 2s forwards;
-        -webkit-animation: fadeIn ease 2s forwards;
-        -moz-animation: fadeIn ease 2s forwards;
-        -o-animation: fadeIn ease 2s forwards;
-        -ms-animation: fadeIn ease 2s forwards;
-    
-        -ms-animation-delay: 10.75s;
-        -webkit-animation-delay: 10.75s;
-        animation-delay: 10.75s;
+        -ms-animation-delay: 14.5s;
+        -webkit-animation-delay: 14.5s;
+        animation-delay: 14.5s;
     }
 
     & img {
@@ -235,6 +239,12 @@
 
 @keyframes fadeIn {
     0% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes fadeInAndOut {
+    0% { opacity:1; }
+    40% { opacity:0; }
     100% { opacity:1; }
 }
 
